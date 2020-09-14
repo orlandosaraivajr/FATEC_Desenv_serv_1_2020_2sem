@@ -1,15 +1,15 @@
 <?php
 
 $a = 10;
-$b = 1;
+$b = 10;
 
-if ($a > $b)
+if ($a >= $b)
   echo "a maior que b";
 
 echo '<br>';
 if ($a > $b) {
-    echo "a maior que b";
-    echo '<br>';
+  echo "a maior que b";
+  echo '<br>';
 }
   
 
