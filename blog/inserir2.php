@@ -17,6 +17,10 @@
 
         if ($conexao->query($sql) === TRUE) {
             echo "Notícia cadastrada com sucesso";
+        ?>
+        <br><br>
+        <a href="index.php"> Clique aqui para voltar</a>
+        <?php   
         } else {
             echo "Error: " . $sql . "<br>" . $conexao->error;
         }
